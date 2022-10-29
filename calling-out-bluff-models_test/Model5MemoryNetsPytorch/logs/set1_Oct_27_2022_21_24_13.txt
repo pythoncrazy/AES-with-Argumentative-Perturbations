@@ -1,0 +1,28 @@
+gpu_id=0
+set_id=1
+emb_size=300
+token_num=42
+feature_size=100
+epochs=200000
+test_freq=10
+hops=3
+lr=0.002
+batch_size=32
+l2_lambda=0.3
+num_samples=1
+epsilon=0.1
+max_grad_norm=10.0
+keep_prob=0.9
+
+max_score=12 	 min_score=2
+max sentence size=911 	 mean sentence size=395
+epoch 1: total_loss=7516.298, loss/triple=7.024578
+epoch 2: total_loss=4331.075, loss/triple=4.047734
+epoch 3: total_loss=3754.736, loss/triple=3.509099
+epoch 4: total_loss=3908.685, loss/triple=3.652977
+epoch 5: total_loss=3237.830, loss/triple=3.026009
+epoch 6: total_loss=2909.100, loss/triple=2.718785
+epoch 7: total_loss=2736.088, loss/triple=2.557092
+epoch 8: total_loss=2539.535, loss/triple=2.373398
+epoch 9: total_loss=2435.488, loss/triple=2.276157
+epoch 10: total_loss=2353.889, loss/triple=2.199896

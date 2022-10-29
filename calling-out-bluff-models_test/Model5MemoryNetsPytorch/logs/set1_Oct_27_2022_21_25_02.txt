@@ -1,0 +1,50 @@
+gpu_id=0
+set_id=1
+emb_size=300
+token_num=42
+feature_size=100
+epochs=200000
+test_freq=10
+hops=3
+lr=0.002
+batch_size=32
+l2_lambda=0.3
+num_samples=1
+epsilon=0.1
+max_grad_norm=10.0
+keep_prob=0.9
+
+max_score=12 	 min_score=2
+max sentence size=911 	 mean sentence size=395
+epoch 1: total_loss=6342.543, loss/triple=5.927610
+epoch 2: total_loss=4469.829, loss/triple=4.177410
+epoch 3: total_loss=4044.121, loss/triple=3.779553
+epoch 4: total_loss=3352.454, loss/triple=3.133134
+epoch 5: total_loss=2994.468, loss/triple=2.798568
+epoch 6: total_loss=2819.907, loss/triple=2.635427
+epoch 7: total_loss=2676.856, loss/triple=2.501735
+epoch 8: total_loss=2549.129, loss/triple=2.382363
+epoch 9: total_loss=2434.121, loss/triple=2.274879
+epoch 10: total_loss=2330.494, loss/triple=2.178032
+------------------------------------
+kappa result=0.0
+------------------------------------
+epoch 11: total_loss=2237.510, loss/triple=2.091131
+epoch 12: total_loss=2153.012, loss/triple=2.012161
+epoch 13: total_loss=2076.152, loss/triple=1.940329
+epoch 14: total_loss=2006.021, loss/triple=1.874786
+epoch 15: total_loss=1941.823, loss/triple=1.814788
+epoch 16: total_loss=1882.888, loss/triple=1.759709
+epoch 17: total_loss=1828.642, loss/triple=1.709011
+epoch 18: total_loss=1778.590, loss/triple=1.662234
+epoch 19: total_loss=1732.297, loss/triple=1.618970
+epoch 20: total_loss=1689.393, loss/triple=1.578872
+------------------------------------
+kappa result=0.0
+------------------------------------
+epoch 21: total_loss=1649.548, loss/triple=1.541634
+epoch 22: total_loss=1612.477, loss/triple=1.506988
+epoch 23: total_loss=1577.930, loss/triple=1.474701
+epoch 24: total_loss=1545.680, loss/triple=1.444561
+epoch 25: total_loss=1515.531, loss/triple=1.416385
+epoch 26: total_loss=1487.306, loss/triple=1.390005

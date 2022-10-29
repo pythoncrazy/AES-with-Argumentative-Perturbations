@@ -1,0 +1,171 @@
+{
+    "metadata": {
+        "core": {
+            "version": "0.5",
+            "id": "0f2f76f5-b612-4c95-9e84-69f1d7cbfe36",
+            "analyst_name": "A User",
+            "analyst_email": "user@email.address",
+            "created": "2022-10-06T00:51:33",
+            "edited": "2022-10-06T00:51:33",
+            "title": "Canary Analysis"
+        },
+        "canary": {
+            "number_of_components": 12,
+            "number_of_attack_relations": 0,
+            "number_of_support_relations": 0,
+            "number_of_linked_relations": 0,
+            "number_of_premises": 0,
+            "number_of_claims": 0,
+            "number_of_major_claims": 12,
+            "version": "0.0.1"
+        }
+    },
+    "resources": [],
+    "nodes": [
+        {
+            "id": "48f35b35-ac15-4f56-b293-ebafbe1f2fed",
+            "type": "atom",
+            "text": "companies continue to improve their products and service, and as a result, the whole society prospers",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "1ff8bd64-e66b-4000-8d6d-3fee6527923b",
+            "type": "atom",
+            "text": "we should attach more importance to cooperation during primary education",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "50953cbf-dfb1-4b18-ab38-625a4ce8baf1",
+            "type": "atom",
+            "text": "through cooperation, children can learn about interpersonal skills which are significant in the future life of all students",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "32c6e911-b47c-4a5b-8307-1a7dc3f1e246",
+            "type": "atom",
+            "text": "What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "8ffe1735-8f9a-448e-ad65-b4b557ce54c9",
+            "type": "atom",
+            "text": "During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "54a7c89a-2378-4241-8cbc-8d393a50a936",
+            "type": "atom",
+            "text": "All of these skills help them to get on well with other people and will benefit them for the whole life",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "469f40b2-4ef1-4af0-ab19-1b1fc81193af",
+            "type": "atom",
+            "text": "the significance of competition is that how to become more excellence to gain the victory",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "8195aa90-b323-4355-b4be-367e303a7579",
+            "type": "atom",
+            "text": "competition makes the society more effective",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "d7b2b23d-7a50-4d65-8199-ad1eab0e7602",
+            "type": "atom",
+            "text": "when we consider about the question that how to win the game, we always find that we need the cooperation",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "3b5693ca-9386-4900-929d-b5febf677bfc",
+            "type": "atom",
+            "text": "Take Olympic games which is a form of competition for instance, it is hard to imagine how an athlete could win the game without the training of his or her coach, and the help of other professional staffs such as the people who take care of his diet, and those who are in charge of the medical care",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "f034b086-aeaa-422b-8be0-82a0f2d05192",
+            "type": "atom",
+            "text": "without the cooperation, there would be no victory of competition",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        },
+        {
+            "id": "46b119b4-129e-40ce-95a7-dc6da03afc83",
+            "type": "atom",
+            "text": "a more cooperative attitudes towards life is more profitable in one's success",
+            "sources": [],
+            "metadata": {
+                "core": {},
+                "canary": {
+                    "type": "MajorClaim"
+                }
+            }
+        }
+    ],
+    "edges": []
+}

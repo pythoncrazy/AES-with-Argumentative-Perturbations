@@ -1,0 +1,1169 @@
+gpu_id=0
+set_id=1
+emb_size=300
+token_num=42
+feature_size=100
+epochs=200000
+test_freq=10
+hops=3
+lr=0.002
+batch_size=32
+l2_lambda=0.3
+num_samples=1
+epsilon=0.1
+max_grad_norm=10.0
+keep_prob=0.9
+
+max_score=12 	 min_score=2
+max sentence size=911 	 mean sentence size=395
+epoch 1: total_loss=6218.036, loss/triple=5.811249
+epoch 2: total_loss=4272.001, loss/triple=3.992524
+epoch 3: total_loss=3429.624, loss/triple=3.205256
+epoch 4: total_loss=3071.149, loss/triple=2.870233
+epoch 5: total_loss=2723.471, loss/triple=2.545300
+epoch 6: total_loss=2488.409, loss/triple=2.325616
+epoch 7: total_loss=2307.701, loss/triple=2.156730
+epoch 8: total_loss=2157.690, loss/triple=2.016533
+epoch 9: total_loss=2031.136, loss/triple=1.898258
+epoch 10: total_loss=1994.741, loss/triple=1.864244
+------------------------------------
+kappa result=0.679696195136201
+------------------------------------
+epoch 11: total_loss=1831.291, loss/triple=1.711487
+epoch 12: total_loss=1729.400, loss/triple=1.616262
+epoch 13: total_loss=1645.997, loss/triple=1.538315
+epoch 14: total_loss=1576.980, loss/triple=1.473813
+epoch 15: total_loss=1514.164, loss/triple=1.415107
+epoch 16: total_loss=1455.721, loss/triple=1.360487
+epoch 17: total_loss=1400.585, loss/triple=1.308958
+epoch 18: total_loss=1351.112, loss/triple=1.262722
+epoch 19: total_loss=1306.680, loss/triple=1.221196
+epoch 20: total_loss=1268.934, loss/triple=1.185919
+------------------------------------
+kappa result=0.7544240462087488
+------------------------------------
+epoch 21: total_loss=1231.089, loss/triple=1.150551
+epoch 22: total_loss=1196.289, loss/triple=1.118028
+epoch 23: total_loss=1163.504, loss/triple=1.087387
+epoch 24: total_loss=1134.671, loss/triple=1.060440
+epoch 25: total_loss=1107.365, loss/triple=1.034920
+epoch 26: total_loss=1082.020, loss/triple=1.011234
+epoch 27: total_loss=1058.421, loss/triple=0.989179
+epoch 28: total_loss=1036.698, loss/triple=0.968877
+epoch 29: total_loss=1015.336, loss/triple=0.948912
+epoch 30: total_loss=996.799, loss/triple=0.931588
+------------------------------------
+kappa result=0.8218094078648224
+------------------------------------
+epoch 31: total_loss=979.119, loss/triple=0.915065
+epoch 32: total_loss=962.444, loss/triple=0.899481
+epoch 33: total_loss=945.871, loss/triple=0.883992
+epoch 34: total_loss=931.332, loss/triple=0.870404
+epoch 35: total_loss=918.103, loss/triple=0.858041
+epoch 36: total_loss=904.721, loss/triple=0.845534
+epoch 37: total_loss=893.057, loss/triple=0.834633
+epoch 38: total_loss=880.442, loss/triple=0.822843
+epoch 39: total_loss=869.993, loss/triple=0.813078
+epoch 40: total_loss=859.396, loss/triple=0.803174
+------------------------------------
+kappa result=0.8053614104703071
+------------------------------------
+epoch 41: total_loss=850.027, loss/triple=0.794418
+epoch 42: total_loss=840.062, loss/triple=0.785104
+epoch 43: total_loss=831.831, loss/triple=0.777412
+epoch 44: total_loss=823.879, loss/triple=0.769980
+epoch 45: total_loss=815.732, loss/triple=0.762366
+epoch 46: total_loss=808.245, loss/triple=0.755369
+epoch 47: total_loss=802.020, loss/triple=0.749551
+epoch 48: total_loss=794.510, loss/triple=0.742533
+epoch 49: total_loss=788.080, loss/triple=0.736523
+epoch 50: total_loss=781.917, loss/triple=0.730764
+------------------------------------
+kappa result=0.8196614798418624
+------------------------------------
+epoch 51: total_loss=776.415, loss/triple=0.725621
+epoch 52: total_loss=771.490, loss/triple=0.721019
+epoch 53: total_loss=766.675, loss/triple=0.716519
+epoch 54: total_loss=761.153, loss/triple=0.711358
+epoch 55: total_loss=756.633, loss/triple=0.707133
+epoch 56: total_loss=751.737, loss/triple=0.702558
+epoch 57: total_loss=747.597, loss/triple=0.698689
+epoch 58: total_loss=743.651, loss/triple=0.695001
+epoch 59: total_loss=739.897, loss/triple=0.691492
+epoch 60: total_loss=736.074, loss/triple=0.687920
+------------------------------------
+kappa result=0.831392979480345
+------------------------------------
+epoch 61: total_loss=732.519, loss/triple=0.684597
+epoch 62: total_loss=729.010, loss/triple=0.681317
+epoch 63: total_loss=725.889, loss/triple=0.678401
+epoch 64: total_loss=723.086, loss/triple=0.675781
+epoch 65: total_loss=719.936, loss/triple=0.672838
+epoch 66: total_loss=717.311, loss/triple=0.670384
+epoch 67: total_loss=714.419, loss/triple=0.667681
+epoch 68: total_loss=712.057, loss/triple=0.665474
+epoch 69: total_loss=709.696, loss/triple=0.663268
+epoch 70: total_loss=707.355, loss/triple=0.661079
+------------------------------------
+kappa result=0.8200412915309794
+------------------------------------
+epoch 71: total_loss=705.191, loss/triple=0.659057
+epoch 72: total_loss=703.025, loss/triple=0.657033
+epoch 73: total_loss=701.067, loss/triple=0.655203
+epoch 74: total_loss=698.963, loss/triple=0.653237
+epoch 75: total_loss=697.223, loss/triple=0.651611
+epoch 76: total_loss=695.476, loss/triple=0.649977
+epoch 77: total_loss=693.795, loss/triple=0.648407
+epoch 78: total_loss=692.224, loss/triple=0.646938
+epoch 79: total_loss=690.617, loss/triple=0.645436
+epoch 80: total_loss=689.108, loss/triple=0.644026
+------------------------------------
+kappa result=0.8220257002598903
+------------------------------------
+epoch 81: total_loss=687.722, loss/triple=0.642731
+epoch 82: total_loss=686.586, loss/triple=0.641669
+epoch 83: total_loss=685.200, loss/triple=0.640374
+epoch 84: total_loss=684.091, loss/triple=0.639337
+epoch 85: total_loss=682.869, loss/triple=0.638195
+epoch 86: total_loss=681.647, loss/triple=0.637053
+epoch 87: total_loss=680.620, loss/triple=0.636093
+epoch 88: total_loss=679.632, loss/triple=0.635170
+epoch 89: total_loss=678.603, loss/triple=0.634208
+epoch 90: total_loss=677.758, loss/triple=0.633419
+------------------------------------
+kappa result=0.8209801093088728
+------------------------------------
+epoch 91: total_loss=676.811, loss/triple=0.632534
+epoch 92: total_loss=675.928, loss/triple=0.631708
+epoch 93: total_loss=675.255, loss/triple=0.631079
+epoch 94: total_loss=674.327, loss/triple=0.630212
+epoch 95: total_loss=673.551, loss/triple=0.629487
+epoch 96: total_loss=672.820, loss/triple=0.628804
+epoch 97: total_loss=672.182, loss/triple=0.628207
+epoch 98: total_loss=671.509, loss/triple=0.627578
+epoch 99: total_loss=670.947, loss/triple=0.627053
+epoch 100: total_loss=670.299, loss/triple=0.626447
+------------------------------------
+kappa result=0.8256250612271554
+------------------------------------
+epoch 101: total_loss=669.758, loss/triple=0.625942
+epoch 102: total_loss=669.175, loss/triple=0.625398
+epoch 103: total_loss=668.708, loss/triple=0.624961
+epoch 104: total_loss=668.134, loss/triple=0.624424
+epoch 105: total_loss=667.651, loss/triple=0.623973
+epoch 106: total_loss=667.190, loss/triple=0.623542
+epoch 107: total_loss=666.771, loss/triple=0.623151
+epoch 108: total_loss=666.344, loss/triple=0.622751
+epoch 109: total_loss=665.960, loss/triple=0.622393
+epoch 110: total_loss=665.582, loss/triple=0.622039
+------------------------------------
+kappa result=0.8207261085156201
+------------------------------------
+epoch 111: total_loss=665.208, loss/triple=0.621690
+epoch 112: total_loss=664.872, loss/triple=0.621376
+epoch 113: total_loss=664.537, loss/triple=0.621062
+epoch 114: total_loss=664.214, loss/triple=0.620761
+epoch 115: total_loss=663.924, loss/triple=0.620490
+epoch 116: total_loss=663.614, loss/triple=0.620200
+epoch 117: total_loss=663.322, loss/triple=0.619928
+epoch 118: total_loss=663.052, loss/triple=0.619675
+epoch 119: total_loss=662.794, loss/triple=0.619434
+epoch 120: total_loss=662.563, loss/triple=0.619218
+------------------------------------
+kappa result=0.8238396085162327
+------------------------------------
+epoch 121: total_loss=662.344, loss/triple=0.619013
+epoch 122: total_loss=662.088, loss/triple=0.618774
+epoch 123: total_loss=661.886, loss/triple=0.618585
+epoch 124: total_loss=661.687, loss/triple=0.618399
+epoch 125: total_loss=661.509, loss/triple=0.618233
+epoch 126: total_loss=661.306, loss/triple=0.618043
+epoch 127: total_loss=661.126, loss/triple=0.617875
+epoch 128: total_loss=660.954, loss/triple=0.617714
+epoch 129: total_loss=660.791, loss/triple=0.617562
+epoch 130: total_loss=660.634, loss/triple=0.617415
+------------------------------------
+kappa result=0.8214271330289505
+------------------------------------
+epoch 131: total_loss=660.489, loss/triple=0.617279
+epoch 132: total_loss=660.352, loss/triple=0.617151
+epoch 133: total_loss=660.204, loss/triple=0.617013
+epoch 134: total_loss=660.079, loss/triple=0.616897
+epoch 135: total_loss=659.959, loss/triple=0.616784
+epoch 136: total_loss=659.830, loss/triple=0.616664
+epoch 137: total_loss=659.722, loss/triple=0.616562
+epoch 138: total_loss=659.617, loss/triple=0.616464
+epoch 139: total_loss=659.518, loss/triple=0.616372
+epoch 140: total_loss=659.428, loss/triple=0.616288
+------------------------------------
+kappa result=0.8243888379792486
+------------------------------------
+epoch 141: total_loss=659.321, loss/triple=0.616187
+epoch 142: total_loss=659.238, loss/triple=0.616111
+epoch 143: total_loss=659.151, loss/triple=0.616029
+epoch 144: total_loss=659.066, loss/triple=0.615950
+epoch 145: total_loss=658.992, loss/triple=0.615881
+epoch 146: total_loss=658.922, loss/triple=0.615815
+epoch 147: total_loss=658.844, loss/triple=0.615742
+epoch 148: total_loss=658.776, loss/triple=0.615678
+epoch 149: total_loss=658.710, loss/triple=0.615617
+epoch 150: total_loss=658.649, loss/triple=0.615560
+------------------------------------
+kappa result=0.8216157878507555
+------------------------------------
+epoch 151: total_loss=658.590, loss/triple=0.615505
+epoch 152: total_loss=658.536, loss/triple=0.615454
+epoch 153: total_loss=658.480, loss/triple=0.615402
+epoch 154: total_loss=658.429, loss/triple=0.615354
+epoch 155: total_loss=658.384, loss/triple=0.615312
+epoch 156: total_loss=658.330, loss/triple=0.615262
+epoch 157: total_loss=658.288, loss/triple=0.615222
+epoch 158: total_loss=658.244, loss/triple=0.615182
+epoch 159: total_loss=658.205, loss/triple=0.615145
+epoch 160: total_loss=658.166, loss/triple=0.615109
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 161: total_loss=658.129, loss/triple=0.615074
+epoch 162: total_loss=658.091, loss/triple=0.615038
+epoch 163: total_loss=658.058, loss/triple=0.615008
+epoch 164: total_loss=658.027, loss/triple=0.614978
+epoch 165: total_loss=657.996, loss/triple=0.614950
+epoch 166: total_loss=657.969, loss/triple=0.614924
+epoch 167: total_loss=657.940, loss/triple=0.614897
+epoch 168: total_loss=657.914, loss/triple=0.614873
+epoch 169: total_loss=657.886, loss/triple=0.614847
+epoch 170: total_loss=657.868, loss/triple=0.614830
+------------------------------------
+kappa result=0.8194215225373909
+------------------------------------
+epoch 171: total_loss=657.841, loss/triple=0.614804
+epoch 172: total_loss=657.818, loss/triple=0.614783
+epoch 173: total_loss=657.796, loss/triple=0.614763
+epoch 174: total_loss=657.776, loss/triple=0.614744
+epoch 175: total_loss=657.757, loss/triple=0.614726
+epoch 176: total_loss=657.740, loss/triple=0.614710
+epoch 177: total_loss=657.723, loss/triple=0.614695
+epoch 178: total_loss=657.705, loss/triple=0.614678
+epoch 179: total_loss=657.690, loss/triple=0.614664
+epoch 180: total_loss=657.675, loss/triple=0.614650
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 181: total_loss=657.662, loss/triple=0.614637
+epoch 182: total_loss=657.647, loss/triple=0.614623
+epoch 183: total_loss=657.634, loss/triple=0.614611
+epoch 184: total_loss=657.622, loss/triple=0.614600
+epoch 185: total_loss=657.609, loss/triple=0.614588
+epoch 186: total_loss=657.599, loss/triple=0.614579
+epoch 187: total_loss=657.589, loss/triple=0.614569
+epoch 188: total_loss=657.578, loss/triple=0.614559
+epoch 189: total_loss=657.569, loss/triple=0.614550
+epoch 190: total_loss=657.559, loss/triple=0.614541
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 191: total_loss=657.550, loss/triple=0.614532
+epoch 192: total_loss=657.541, loss/triple=0.614525
+epoch 193: total_loss=657.534, loss/triple=0.614517
+epoch 194: total_loss=657.526, loss/triple=0.614510
+epoch 195: total_loss=657.520, loss/triple=0.614505
+epoch 196: total_loss=657.512, loss/triple=0.614497
+epoch 197: total_loss=657.505, loss/triple=0.614491
+epoch 198: total_loss=657.499, loss/triple=0.614485
+epoch 199: total_loss=657.493, loss/triple=0.614479
+epoch 200: total_loss=657.487, loss/triple=0.614474
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 201: total_loss=657.482, loss/triple=0.614469
+epoch 202: total_loss=657.476, loss/triple=0.614464
+epoch 203: total_loss=657.472, loss/triple=0.614460
+epoch 204: total_loss=657.467, loss/triple=0.614455
+epoch 205: total_loss=657.462, loss/triple=0.614451
+epoch 206: total_loss=657.458, loss/triple=0.614447
+epoch 207: total_loss=657.454, loss/triple=0.614443
+epoch 208: total_loss=657.451, loss/triple=0.614440
+epoch 209: total_loss=657.446, loss/triple=0.614436
+epoch 210: total_loss=657.443, loss/triple=0.614433
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 211: total_loss=657.440, loss/triple=0.614430
+epoch 212: total_loss=657.437, loss/triple=0.614427
+epoch 213: total_loss=657.433, loss/triple=0.614424
+epoch 214: total_loss=657.431, loss/triple=0.614421
+epoch 215: total_loss=657.428, loss/triple=0.614419
+epoch 216: total_loss=657.425, loss/triple=0.614416
+epoch 217: total_loss=657.422, loss/triple=0.614413
+epoch 218: total_loss=657.420, loss/triple=0.614411
+epoch 219: total_loss=657.417, loss/triple=0.614408
+epoch 220: total_loss=657.415, loss/triple=0.614406
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 221: total_loss=657.412, loss/triple=0.614404
+epoch 222: total_loss=657.410, loss/triple=0.614402
+epoch 223: total_loss=657.409, loss/triple=0.614401
+epoch 224: total_loss=657.406, loss/triple=0.614399
+epoch 225: total_loss=657.405, loss/triple=0.614397
+epoch 226: total_loss=657.403, loss/triple=0.614396
+epoch 227: total_loss=657.402, loss/triple=0.614394
+epoch 228: total_loss=657.401, loss/triple=0.614393
+epoch 229: total_loss=657.400, loss/triple=0.614392
+epoch 230: total_loss=657.399, loss/triple=0.614392
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 231: total_loss=657.398, loss/triple=0.614391
+epoch 232: total_loss=657.398, loss/triple=0.614391
+epoch 233: total_loss=657.398, loss/triple=0.614390
+epoch 234: total_loss=657.397, loss/triple=0.614390
+epoch 235: total_loss=657.397, loss/triple=0.614390
+epoch 236: total_loss=657.397, loss/triple=0.614390
+epoch 237: total_loss=657.397, loss/triple=0.614390
+epoch 238: total_loss=657.397, loss/triple=0.614390
+epoch 239: total_loss=657.397, loss/triple=0.614390
+epoch 240: total_loss=657.397, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 241: total_loss=657.397, loss/triple=0.614389
+epoch 242: total_loss=657.397, loss/triple=0.614389
+epoch 243: total_loss=657.397, loss/triple=0.614389
+epoch 244: total_loss=657.397, loss/triple=0.614389
+epoch 245: total_loss=657.397, loss/triple=0.614389
+epoch 246: total_loss=657.397, loss/triple=0.614389
+epoch 247: total_loss=657.397, loss/triple=0.614389
+epoch 248: total_loss=657.397, loss/triple=0.614389
+epoch 249: total_loss=657.397, loss/triple=0.614389
+epoch 250: total_loss=657.397, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 251: total_loss=657.397, loss/triple=0.614389
+epoch 252: total_loss=657.397, loss/triple=0.614389
+epoch 253: total_loss=657.397, loss/triple=0.614389
+epoch 254: total_loss=657.397, loss/triple=0.614389
+epoch 255: total_loss=657.397, loss/triple=0.614389
+epoch 256: total_loss=657.397, loss/triple=0.614389
+epoch 257: total_loss=657.397, loss/triple=0.614389
+epoch 258: total_loss=657.397, loss/triple=0.614389
+epoch 259: total_loss=657.397, loss/triple=0.614389
+epoch 260: total_loss=657.397, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 261: total_loss=657.397, loss/triple=0.614389
+epoch 262: total_loss=657.397, loss/triple=0.614389
+epoch 263: total_loss=657.397, loss/triple=0.614389
+epoch 264: total_loss=657.397, loss/triple=0.614389
+epoch 265: total_loss=657.397, loss/triple=0.614389
+epoch 266: total_loss=657.397, loss/triple=0.614389
+epoch 267: total_loss=657.397, loss/triple=0.614389
+epoch 268: total_loss=657.396, loss/triple=0.614389
+epoch 269: total_loss=657.396, loss/triple=0.614389
+epoch 270: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 271: total_loss=657.396, loss/triple=0.614389
+epoch 272: total_loss=657.396, loss/triple=0.614389
+epoch 273: total_loss=657.396, loss/triple=0.614389
+epoch 274: total_loss=657.396, loss/triple=0.614389
+epoch 275: total_loss=657.396, loss/triple=0.614389
+epoch 276: total_loss=657.396, loss/triple=0.614389
+epoch 277: total_loss=657.396, loss/triple=0.614389
+epoch 278: total_loss=657.396, loss/triple=0.614389
+epoch 279: total_loss=657.396, loss/triple=0.614389
+epoch 280: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 281: total_loss=657.396, loss/triple=0.614389
+epoch 282: total_loss=657.396, loss/triple=0.614389
+epoch 283: total_loss=657.396, loss/triple=0.614389
+epoch 284: total_loss=657.396, loss/triple=0.614389
+epoch 285: total_loss=657.396, loss/triple=0.614389
+epoch 286: total_loss=657.396, loss/triple=0.614389
+epoch 287: total_loss=657.396, loss/triple=0.614389
+epoch 288: total_loss=657.396, loss/triple=0.614389
+epoch 289: total_loss=657.396, loss/triple=0.614389
+epoch 290: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 291: total_loss=657.396, loss/triple=0.614389
+epoch 292: total_loss=657.396, loss/triple=0.614389
+epoch 293: total_loss=657.396, loss/triple=0.614389
+epoch 294: total_loss=657.396, loss/triple=0.614389
+epoch 295: total_loss=657.396, loss/triple=0.614389
+epoch 296: total_loss=657.396, loss/triple=0.614389
+epoch 297: total_loss=657.396, loss/triple=0.614389
+epoch 298: total_loss=657.396, loss/triple=0.614389
+epoch 299: total_loss=657.396, loss/triple=0.614389
+epoch 300: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 301: total_loss=657.396, loss/triple=0.614389
+epoch 302: total_loss=657.396, loss/triple=0.614389
+epoch 303: total_loss=657.396, loss/triple=0.614389
+epoch 304: total_loss=657.396, loss/triple=0.614389
+epoch 305: total_loss=657.396, loss/triple=0.614389
+epoch 306: total_loss=657.396, loss/triple=0.614389
+epoch 307: total_loss=657.396, loss/triple=0.614389
+epoch 308: total_loss=657.396, loss/triple=0.614389
+epoch 309: total_loss=657.396, loss/triple=0.614389
+epoch 310: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 311: total_loss=657.396, loss/triple=0.614389
+epoch 312: total_loss=657.396, loss/triple=0.614389
+epoch 313: total_loss=657.396, loss/triple=0.614389
+epoch 314: total_loss=657.396, loss/triple=0.614389
+epoch 315: total_loss=657.396, loss/triple=0.614389
+epoch 316: total_loss=657.396, loss/triple=0.614389
+epoch 317: total_loss=657.396, loss/triple=0.614389
+epoch 318: total_loss=657.396, loss/triple=0.614389
+epoch 319: total_loss=657.396, loss/triple=0.614389
+epoch 320: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 321: total_loss=657.396, loss/triple=0.614389
+epoch 322: total_loss=657.396, loss/triple=0.614389
+epoch 323: total_loss=657.396, loss/triple=0.614389
+epoch 324: total_loss=657.396, loss/triple=0.614389
+epoch 325: total_loss=657.396, loss/triple=0.614389
+epoch 326: total_loss=657.396, loss/triple=0.614389
+epoch 327: total_loss=657.396, loss/triple=0.614389
+epoch 328: total_loss=657.396, loss/triple=0.614389
+epoch 329: total_loss=657.396, loss/triple=0.614389
+epoch 330: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 331: total_loss=657.396, loss/triple=0.614389
+epoch 332: total_loss=657.396, loss/triple=0.614389
+epoch 333: total_loss=657.396, loss/triple=0.614389
+epoch 334: total_loss=657.396, loss/triple=0.614389
+epoch 335: total_loss=657.396, loss/triple=0.614389
+epoch 336: total_loss=657.396, loss/triple=0.614389
+epoch 337: total_loss=657.396, loss/triple=0.614389
+epoch 338: total_loss=657.396, loss/triple=0.614389
+epoch 339: total_loss=657.396, loss/triple=0.614389
+epoch 340: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 341: total_loss=657.396, loss/triple=0.614389
+epoch 342: total_loss=657.396, loss/triple=0.614389
+epoch 343: total_loss=657.396, loss/triple=0.614389
+epoch 344: total_loss=657.396, loss/triple=0.614389
+epoch 345: total_loss=657.396, loss/triple=0.614389
+epoch 346: total_loss=657.396, loss/triple=0.614389
+epoch 347: total_loss=657.396, loss/triple=0.614389
+epoch 348: total_loss=657.396, loss/triple=0.614389
+epoch 349: total_loss=657.396, loss/triple=0.614389
+epoch 350: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 351: total_loss=657.396, loss/triple=0.614389
+epoch 352: total_loss=657.396, loss/triple=0.614389
+epoch 353: total_loss=657.396, loss/triple=0.614389
+epoch 354: total_loss=657.396, loss/triple=0.614389
+epoch 355: total_loss=657.396, loss/triple=0.614389
+epoch 356: total_loss=657.396, loss/triple=0.614389
+epoch 357: total_loss=657.396, loss/triple=0.614389
+epoch 358: total_loss=657.396, loss/triple=0.614389
+epoch 359: total_loss=657.396, loss/triple=0.614389
+epoch 360: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 361: total_loss=657.396, loss/triple=0.614389
+epoch 362: total_loss=657.396, loss/triple=0.614389
+epoch 363: total_loss=657.396, loss/triple=0.614389
+epoch 364: total_loss=657.396, loss/triple=0.614389
+epoch 365: total_loss=657.396, loss/triple=0.614389
+epoch 366: total_loss=657.396, loss/triple=0.614389
+epoch 367: total_loss=657.396, loss/triple=0.614389
+epoch 368: total_loss=657.396, loss/triple=0.614389
+epoch 369: total_loss=657.396, loss/triple=0.614389
+epoch 370: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 371: total_loss=657.396, loss/triple=0.614389
+epoch 372: total_loss=657.396, loss/triple=0.614389
+epoch 373: total_loss=657.396, loss/triple=0.614389
+epoch 374: total_loss=657.396, loss/triple=0.614389
+epoch 375: total_loss=657.396, loss/triple=0.614389
+epoch 376: total_loss=657.396, loss/triple=0.614389
+epoch 377: total_loss=657.396, loss/triple=0.614389
+epoch 378: total_loss=657.396, loss/triple=0.614389
+epoch 379: total_loss=657.396, loss/triple=0.614389
+epoch 380: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 381: total_loss=657.396, loss/triple=0.614389
+epoch 382: total_loss=657.396, loss/triple=0.614389
+epoch 383: total_loss=657.396, loss/triple=0.614389
+epoch 384: total_loss=657.396, loss/triple=0.614389
+epoch 385: total_loss=657.396, loss/triple=0.614389
+epoch 386: total_loss=657.396, loss/triple=0.614389
+epoch 387: total_loss=657.396, loss/triple=0.614389
+epoch 388: total_loss=657.396, loss/triple=0.614389
+epoch 389: total_loss=657.396, loss/triple=0.614389
+epoch 390: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 391: total_loss=657.396, loss/triple=0.614389
+epoch 392: total_loss=657.396, loss/triple=0.614389
+epoch 393: total_loss=657.396, loss/triple=0.614389
+epoch 394: total_loss=657.396, loss/triple=0.614389
+epoch 395: total_loss=657.396, loss/triple=0.614389
+epoch 396: total_loss=657.396, loss/triple=0.614389
+epoch 397: total_loss=657.396, loss/triple=0.614389
+epoch 398: total_loss=657.396, loss/triple=0.614389
+epoch 399: total_loss=657.396, loss/triple=0.614389
+epoch 400: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 401: total_loss=657.396, loss/triple=0.614389
+epoch 402: total_loss=657.396, loss/triple=0.614389
+epoch 403: total_loss=657.396, loss/triple=0.614389
+epoch 404: total_loss=657.396, loss/triple=0.614389
+epoch 405: total_loss=657.396, loss/triple=0.614389
+epoch 406: total_loss=657.396, loss/triple=0.614389
+epoch 407: total_loss=657.396, loss/triple=0.614389
+epoch 408: total_loss=657.396, loss/triple=0.614389
+epoch 409: total_loss=657.396, loss/triple=0.614389
+epoch 410: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 411: total_loss=657.396, loss/triple=0.614389
+epoch 412: total_loss=657.396, loss/triple=0.614389
+epoch 413: total_loss=657.396, loss/triple=0.614389
+epoch 414: total_loss=657.396, loss/triple=0.614389
+epoch 415: total_loss=657.396, loss/triple=0.614389
+epoch 416: total_loss=657.396, loss/triple=0.614389
+epoch 417: total_loss=657.396, loss/triple=0.614389
+epoch 418: total_loss=657.396, loss/triple=0.614389
+epoch 419: total_loss=657.396, loss/triple=0.614389
+epoch 420: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 421: total_loss=657.396, loss/triple=0.614389
+epoch 422: total_loss=657.396, loss/triple=0.614389
+epoch 423: total_loss=657.396, loss/triple=0.614389
+epoch 424: total_loss=657.396, loss/triple=0.614389
+epoch 425: total_loss=657.396, loss/triple=0.614389
+epoch 426: total_loss=657.396, loss/triple=0.614389
+epoch 427: total_loss=657.396, loss/triple=0.614389
+epoch 428: total_loss=657.396, loss/triple=0.614389
+epoch 429: total_loss=657.396, loss/triple=0.614389
+epoch 430: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 431: total_loss=657.396, loss/triple=0.614389
+epoch 432: total_loss=657.396, loss/triple=0.614389
+epoch 433: total_loss=657.396, loss/triple=0.614389
+epoch 434: total_loss=657.396, loss/triple=0.614389
+epoch 435: total_loss=657.396, loss/triple=0.614389
+epoch 436: total_loss=657.396, loss/triple=0.614389
+epoch 437: total_loss=657.396, loss/triple=0.614389
+epoch 438: total_loss=657.396, loss/triple=0.614389
+epoch 439: total_loss=657.396, loss/triple=0.614389
+epoch 440: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 441: total_loss=657.396, loss/triple=0.614389
+epoch 442: total_loss=657.396, loss/triple=0.614389
+epoch 443: total_loss=657.396, loss/triple=0.614389
+epoch 444: total_loss=657.396, loss/triple=0.614389
+epoch 445: total_loss=657.396, loss/triple=0.614389
+epoch 446: total_loss=657.396, loss/triple=0.614389
+epoch 447: total_loss=657.396, loss/triple=0.614389
+epoch 448: total_loss=657.396, loss/triple=0.614389
+epoch 449: total_loss=657.396, loss/triple=0.614389
+epoch 450: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 451: total_loss=657.396, loss/triple=0.614389
+epoch 452: total_loss=657.396, loss/triple=0.614389
+epoch 453: total_loss=657.396, loss/triple=0.614389
+epoch 454: total_loss=657.396, loss/triple=0.614389
+epoch 455: total_loss=657.396, loss/triple=0.614389
+epoch 456: total_loss=657.396, loss/triple=0.614389
+epoch 457: total_loss=657.396, loss/triple=0.614389
+epoch 458: total_loss=657.396, loss/triple=0.614389
+epoch 459: total_loss=657.396, loss/triple=0.614389
+epoch 460: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 461: total_loss=657.396, loss/triple=0.614389
+epoch 462: total_loss=657.396, loss/triple=0.614389
+epoch 463: total_loss=657.396, loss/triple=0.614389
+epoch 464: total_loss=657.396, loss/triple=0.614389
+epoch 465: total_loss=657.396, loss/triple=0.614389
+epoch 466: total_loss=657.396, loss/triple=0.614389
+epoch 467: total_loss=657.396, loss/triple=0.614389
+epoch 468: total_loss=657.396, loss/triple=0.614389
+epoch 469: total_loss=657.396, loss/triple=0.614389
+epoch 470: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 471: total_loss=657.396, loss/triple=0.614389
+epoch 472: total_loss=657.396, loss/triple=0.614389
+epoch 473: total_loss=657.396, loss/triple=0.614389
+epoch 474: total_loss=657.396, loss/triple=0.614389
+epoch 475: total_loss=657.396, loss/triple=0.614389
+epoch 476: total_loss=657.396, loss/triple=0.614389
+epoch 477: total_loss=657.396, loss/triple=0.614389
+epoch 478: total_loss=657.396, loss/triple=0.614389
+epoch 479: total_loss=657.396, loss/triple=0.614389
+epoch 480: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 481: total_loss=657.396, loss/triple=0.614389
+epoch 482: total_loss=657.396, loss/triple=0.614389
+epoch 483: total_loss=657.396, loss/triple=0.614389
+epoch 484: total_loss=657.396, loss/triple=0.614389
+epoch 485: total_loss=657.396, loss/triple=0.614389
+epoch 486: total_loss=657.396, loss/triple=0.614389
+epoch 487: total_loss=657.396, loss/triple=0.614389
+epoch 488: total_loss=657.396, loss/triple=0.614389
+epoch 489: total_loss=657.396, loss/triple=0.614389
+epoch 490: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 491: total_loss=657.396, loss/triple=0.614389
+epoch 492: total_loss=657.396, loss/triple=0.614389
+epoch 493: total_loss=657.396, loss/triple=0.614389
+epoch 494: total_loss=657.396, loss/triple=0.614389
+epoch 495: total_loss=657.396, loss/triple=0.614389
+epoch 496: total_loss=657.396, loss/triple=0.614389
+epoch 497: total_loss=657.396, loss/triple=0.614389
+epoch 498: total_loss=657.396, loss/triple=0.614389
+epoch 499: total_loss=657.396, loss/triple=0.614389
+epoch 500: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 501: total_loss=657.396, loss/triple=0.614389
+epoch 502: total_loss=657.396, loss/triple=0.614389
+epoch 503: total_loss=657.396, loss/triple=0.614389
+epoch 504: total_loss=657.396, loss/triple=0.614389
+epoch 505: total_loss=657.396, loss/triple=0.614389
+epoch 506: total_loss=657.396, loss/triple=0.614389
+epoch 507: total_loss=657.396, loss/triple=0.614389
+epoch 508: total_loss=657.396, loss/triple=0.614389
+epoch 509: total_loss=657.396, loss/triple=0.614389
+epoch 510: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 511: total_loss=657.396, loss/triple=0.614389
+epoch 512: total_loss=657.396, loss/triple=0.614389
+epoch 513: total_loss=657.396, loss/triple=0.614389
+epoch 514: total_loss=657.396, loss/triple=0.614389
+epoch 515: total_loss=657.396, loss/triple=0.614389
+epoch 516: total_loss=657.396, loss/triple=0.614389
+epoch 517: total_loss=657.396, loss/triple=0.614389
+epoch 518: total_loss=657.396, loss/triple=0.614389
+epoch 519: total_loss=657.396, loss/triple=0.614389
+epoch 520: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 521: total_loss=657.396, loss/triple=0.614389
+epoch 522: total_loss=657.396, loss/triple=0.614389
+epoch 523: total_loss=657.396, loss/triple=0.614389
+epoch 524: total_loss=657.396, loss/triple=0.614389
+epoch 525: total_loss=657.396, loss/triple=0.614389
+epoch 526: total_loss=657.396, loss/triple=0.614389
+epoch 527: total_loss=657.396, loss/triple=0.614389
+epoch 528: total_loss=657.396, loss/triple=0.614389
+epoch 529: total_loss=657.396, loss/triple=0.614389
+epoch 530: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 531: total_loss=657.396, loss/triple=0.614389
+epoch 532: total_loss=657.396, loss/triple=0.614389
+epoch 533: total_loss=657.396, loss/triple=0.614389
+epoch 534: total_loss=657.396, loss/triple=0.614389
+epoch 535: total_loss=657.396, loss/triple=0.614389
+epoch 536: total_loss=657.396, loss/triple=0.614389
+epoch 537: total_loss=657.396, loss/triple=0.614389
+epoch 538: total_loss=657.396, loss/triple=0.614389
+epoch 539: total_loss=657.396, loss/triple=0.614389
+epoch 540: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 541: total_loss=657.396, loss/triple=0.614389
+epoch 542: total_loss=657.396, loss/triple=0.614389
+epoch 543: total_loss=657.396, loss/triple=0.614389
+epoch 544: total_loss=657.396, loss/triple=0.614389
+epoch 545: total_loss=657.396, loss/triple=0.614389
+epoch 546: total_loss=657.396, loss/triple=0.614389
+epoch 547: total_loss=657.396, loss/triple=0.614389
+epoch 548: total_loss=657.396, loss/triple=0.614389
+epoch 549: total_loss=657.396, loss/triple=0.614389
+epoch 550: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 551: total_loss=657.396, loss/triple=0.614389
+epoch 552: total_loss=657.396, loss/triple=0.614389
+epoch 553: total_loss=657.396, loss/triple=0.614389
+epoch 554: total_loss=657.396, loss/triple=0.614389
+epoch 555: total_loss=657.396, loss/triple=0.614389
+epoch 556: total_loss=657.396, loss/triple=0.614389
+epoch 557: total_loss=657.396, loss/triple=0.614389
+epoch 558: total_loss=657.396, loss/triple=0.614389
+epoch 559: total_loss=657.396, loss/triple=0.614389
+epoch 560: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 561: total_loss=657.396, loss/triple=0.614389
+epoch 562: total_loss=657.396, loss/triple=0.614389
+epoch 563: total_loss=657.396, loss/triple=0.614389
+epoch 564: total_loss=657.396, loss/triple=0.614389
+epoch 565: total_loss=657.396, loss/triple=0.614389
+epoch 566: total_loss=657.396, loss/triple=0.614389
+epoch 567: total_loss=657.396, loss/triple=0.614389
+epoch 568: total_loss=657.396, loss/triple=0.614389
+epoch 569: total_loss=657.396, loss/triple=0.614389
+epoch 570: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 571: total_loss=657.396, loss/triple=0.614389
+epoch 572: total_loss=657.396, loss/triple=0.614389
+epoch 573: total_loss=657.396, loss/triple=0.614389
+epoch 574: total_loss=657.396, loss/triple=0.614389
+epoch 575: total_loss=657.396, loss/triple=0.614389
+epoch 576: total_loss=657.396, loss/triple=0.614389
+epoch 577: total_loss=657.396, loss/triple=0.614389
+epoch 578: total_loss=657.396, loss/triple=0.614389
+epoch 579: total_loss=657.396, loss/triple=0.614389
+epoch 580: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 581: total_loss=657.396, loss/triple=0.614389
+epoch 582: total_loss=657.396, loss/triple=0.614389
+epoch 583: total_loss=657.396, loss/triple=0.614389
+epoch 584: total_loss=657.396, loss/triple=0.614389
+epoch 585: total_loss=657.396, loss/triple=0.614389
+epoch 586: total_loss=657.396, loss/triple=0.614389
+epoch 587: total_loss=657.396, loss/triple=0.614389
+epoch 588: total_loss=657.396, loss/triple=0.614389
+epoch 589: total_loss=657.396, loss/triple=0.614389
+epoch 590: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 591: total_loss=657.396, loss/triple=0.614389
+epoch 592: total_loss=657.396, loss/triple=0.614389
+epoch 593: total_loss=657.396, loss/triple=0.614389
+epoch 594: total_loss=657.396, loss/triple=0.614389
+epoch 595: total_loss=657.396, loss/triple=0.614389
+epoch 596: total_loss=657.396, loss/triple=0.614389
+epoch 597: total_loss=657.396, loss/triple=0.614389
+epoch 598: total_loss=657.396, loss/triple=0.614389
+epoch 599: total_loss=657.396, loss/triple=0.614389
+epoch 600: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 601: total_loss=657.396, loss/triple=0.614389
+epoch 602: total_loss=657.396, loss/triple=0.614389
+epoch 603: total_loss=657.396, loss/triple=0.614389
+epoch 604: total_loss=657.396, loss/triple=0.614389
+epoch 605: total_loss=657.396, loss/triple=0.614389
+epoch 606: total_loss=657.396, loss/triple=0.614389
+epoch 607: total_loss=657.396, loss/triple=0.614389
+epoch 608: total_loss=657.396, loss/triple=0.614389
+epoch 609: total_loss=657.396, loss/triple=0.614389
+epoch 610: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 611: total_loss=657.396, loss/triple=0.614389
+epoch 612: total_loss=657.396, loss/triple=0.614389
+epoch 613: total_loss=657.396, loss/triple=0.614389
+epoch 614: total_loss=657.396, loss/triple=0.614389
+epoch 615: total_loss=657.396, loss/triple=0.614389
+epoch 616: total_loss=657.396, loss/triple=0.614389
+epoch 617: total_loss=657.396, loss/triple=0.614389
+epoch 618: total_loss=657.396, loss/triple=0.614389
+epoch 619: total_loss=657.396, loss/triple=0.614389
+epoch 620: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 621: total_loss=657.396, loss/triple=0.614389
+epoch 622: total_loss=657.396, loss/triple=0.614389
+epoch 623: total_loss=657.396, loss/triple=0.614389
+epoch 624: total_loss=657.396, loss/triple=0.614389
+epoch 625: total_loss=657.396, loss/triple=0.614389
+epoch 626: total_loss=657.396, loss/triple=0.614389
+epoch 627: total_loss=657.396, loss/triple=0.614389
+epoch 628: total_loss=657.396, loss/triple=0.614389
+epoch 629: total_loss=657.396, loss/triple=0.614389
+epoch 630: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 631: total_loss=657.396, loss/triple=0.614389
+epoch 632: total_loss=657.396, loss/triple=0.614389
+epoch 633: total_loss=657.396, loss/triple=0.614389
+epoch 634: total_loss=657.396, loss/triple=0.614389
+epoch 635: total_loss=657.396, loss/triple=0.614389
+epoch 636: total_loss=657.396, loss/triple=0.614389
+epoch 637: total_loss=657.396, loss/triple=0.614389
+epoch 638: total_loss=657.396, loss/triple=0.614389
+epoch 639: total_loss=657.396, loss/triple=0.614389
+epoch 640: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 641: total_loss=657.396, loss/triple=0.614389
+epoch 642: total_loss=657.396, loss/triple=0.614389
+epoch 643: total_loss=657.396, loss/triple=0.614389
+epoch 644: total_loss=657.396, loss/triple=0.614389
+epoch 645: total_loss=657.396, loss/triple=0.614389
+epoch 646: total_loss=657.396, loss/triple=0.614389
+epoch 647: total_loss=657.396, loss/triple=0.614389
+epoch 648: total_loss=657.396, loss/triple=0.614389
+epoch 649: total_loss=657.396, loss/triple=0.614389
+epoch 650: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 651: total_loss=657.396, loss/triple=0.614389
+epoch 652: total_loss=657.396, loss/triple=0.614389
+epoch 653: total_loss=657.396, loss/triple=0.614389
+epoch 654: total_loss=657.396, loss/triple=0.614389
+epoch 655: total_loss=657.396, loss/triple=0.614389
+epoch 656: total_loss=657.396, loss/triple=0.614389
+epoch 657: total_loss=657.396, loss/triple=0.614389
+epoch 658: total_loss=657.396, loss/triple=0.614389
+epoch 659: total_loss=657.396, loss/triple=0.614389
+epoch 660: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 661: total_loss=657.396, loss/triple=0.614389
+epoch 662: total_loss=657.396, loss/triple=0.614389
+epoch 663: total_loss=657.396, loss/triple=0.614389
+epoch 664: total_loss=657.396, loss/triple=0.614389
+epoch 665: total_loss=657.396, loss/triple=0.614389
+epoch 666: total_loss=657.396, loss/triple=0.614389
+epoch 667: total_loss=657.396, loss/triple=0.614389
+epoch 668: total_loss=657.396, loss/triple=0.614389
+epoch 669: total_loss=657.396, loss/triple=0.614389
+epoch 670: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 671: total_loss=657.396, loss/triple=0.614389
+epoch 672: total_loss=657.396, loss/triple=0.614389
+epoch 673: total_loss=657.396, loss/triple=0.614389
+epoch 674: total_loss=657.396, loss/triple=0.614389
+epoch 675: total_loss=657.396, loss/triple=0.614389
+epoch 676: total_loss=657.396, loss/triple=0.614389
+epoch 677: total_loss=657.396, loss/triple=0.614389
+epoch 678: total_loss=657.396, loss/triple=0.614389
+epoch 679: total_loss=657.396, loss/triple=0.614389
+epoch 680: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 681: total_loss=657.396, loss/triple=0.614389
+epoch 682: total_loss=657.396, loss/triple=0.614389
+epoch 683: total_loss=657.396, loss/triple=0.614389
+epoch 684: total_loss=657.396, loss/triple=0.614389
+epoch 685: total_loss=657.396, loss/triple=0.614389
+epoch 686: total_loss=657.396, loss/triple=0.614389
+epoch 687: total_loss=657.396, loss/triple=0.614389
+epoch 688: total_loss=657.396, loss/triple=0.614389
+epoch 689: total_loss=657.396, loss/triple=0.614389
+epoch 690: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 691: total_loss=657.396, loss/triple=0.614389
+epoch 692: total_loss=657.396, loss/triple=0.614389
+epoch 693: total_loss=657.396, loss/triple=0.614389
+epoch 694: total_loss=657.396, loss/triple=0.614389
+epoch 695: total_loss=657.396, loss/triple=0.614389
+epoch 696: total_loss=657.396, loss/triple=0.614389
+epoch 697: total_loss=657.396, loss/triple=0.614389
+epoch 698: total_loss=657.396, loss/triple=0.614389
+epoch 699: total_loss=657.396, loss/triple=0.614389
+epoch 700: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 701: total_loss=657.396, loss/triple=0.614389
+epoch 702: total_loss=657.396, loss/triple=0.614389
+epoch 703: total_loss=657.396, loss/triple=0.614389
+epoch 704: total_loss=657.396, loss/triple=0.614389
+epoch 705: total_loss=657.396, loss/triple=0.614389
+epoch 706: total_loss=657.396, loss/triple=0.614389
+epoch 707: total_loss=657.396, loss/triple=0.614389
+epoch 708: total_loss=657.396, loss/triple=0.614389
+epoch 709: total_loss=657.396, loss/triple=0.614389
+epoch 710: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 711: total_loss=657.396, loss/triple=0.614389
+epoch 712: total_loss=657.396, loss/triple=0.614389
+epoch 713: total_loss=657.396, loss/triple=0.614389
+epoch 714: total_loss=657.396, loss/triple=0.614389
+epoch 715: total_loss=657.396, loss/triple=0.614389
+epoch 716: total_loss=657.396, loss/triple=0.614389
+epoch 717: total_loss=657.396, loss/triple=0.614389
+epoch 718: total_loss=657.396, loss/triple=0.614389
+epoch 719: total_loss=657.396, loss/triple=0.614389
+epoch 720: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 721: total_loss=657.396, loss/triple=0.614389
+epoch 722: total_loss=657.396, loss/triple=0.614389
+epoch 723: total_loss=657.396, loss/triple=0.614389
+epoch 724: total_loss=657.396, loss/triple=0.614389
+epoch 725: total_loss=657.396, loss/triple=0.614389
+epoch 726: total_loss=657.396, loss/triple=0.614389
+epoch 727: total_loss=657.396, loss/triple=0.614389
+epoch 728: total_loss=657.396, loss/triple=0.614389
+epoch 729: total_loss=657.396, loss/triple=0.614389
+epoch 730: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 731: total_loss=657.396, loss/triple=0.614389
+epoch 732: total_loss=657.396, loss/triple=0.614389
+epoch 733: total_loss=657.396, loss/triple=0.614389
+epoch 734: total_loss=657.396, loss/triple=0.614389
+epoch 735: total_loss=657.396, loss/triple=0.614389
+epoch 736: total_loss=657.396, loss/triple=0.614389
+epoch 737: total_loss=657.396, loss/triple=0.614389
+epoch 738: total_loss=657.396, loss/triple=0.614389
+epoch 739: total_loss=657.396, loss/triple=0.614389
+epoch 740: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 741: total_loss=657.396, loss/triple=0.614389
+epoch 742: total_loss=657.396, loss/triple=0.614389
+epoch 743: total_loss=657.396, loss/triple=0.614389
+epoch 744: total_loss=657.396, loss/triple=0.614389
+epoch 745: total_loss=657.396, loss/triple=0.614389
+epoch 746: total_loss=657.396, loss/triple=0.614389
+epoch 747: total_loss=657.396, loss/triple=0.614389
+epoch 748: total_loss=657.396, loss/triple=0.614389
+epoch 749: total_loss=657.396, loss/triple=0.614389
+epoch 750: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 751: total_loss=657.396, loss/triple=0.614389
+epoch 752: total_loss=657.396, loss/triple=0.614389
+epoch 753: total_loss=657.396, loss/triple=0.614389
+epoch 754: total_loss=657.396, loss/triple=0.614389
+epoch 755: total_loss=657.396, loss/triple=0.614389
+epoch 756: total_loss=657.396, loss/triple=0.614389
+epoch 757: total_loss=657.396, loss/triple=0.614389
+epoch 758: total_loss=657.396, loss/triple=0.614389
+epoch 759: total_loss=657.396, loss/triple=0.614389
+epoch 760: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 761: total_loss=657.396, loss/triple=0.614389
+epoch 762: total_loss=657.396, loss/triple=0.614389
+epoch 763: total_loss=657.396, loss/triple=0.614389
+epoch 764: total_loss=657.396, loss/triple=0.614389
+epoch 765: total_loss=657.396, loss/triple=0.614389
+epoch 766: total_loss=657.396, loss/triple=0.614389
+epoch 767: total_loss=657.396, loss/triple=0.614389
+epoch 768: total_loss=657.396, loss/triple=0.614389
+epoch 769: total_loss=657.396, loss/triple=0.614389
+epoch 770: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 771: total_loss=657.396, loss/triple=0.614389
+epoch 772: total_loss=657.396, loss/triple=0.614389
+epoch 773: total_loss=657.396, loss/triple=0.614389
+epoch 774: total_loss=657.396, loss/triple=0.614389
+epoch 775: total_loss=657.396, loss/triple=0.614389
+epoch 776: total_loss=657.396, loss/triple=0.614389
+epoch 777: total_loss=657.396, loss/triple=0.614389
+epoch 778: total_loss=657.396, loss/triple=0.614389
+epoch 779: total_loss=657.396, loss/triple=0.614389
+epoch 780: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 781: total_loss=657.396, loss/triple=0.614389
+epoch 782: total_loss=657.396, loss/triple=0.614389
+epoch 783: total_loss=657.396, loss/triple=0.614389
+epoch 784: total_loss=657.396, loss/triple=0.614389
+epoch 785: total_loss=657.396, loss/triple=0.614389
+epoch 786: total_loss=657.396, loss/triple=0.614389
+epoch 787: total_loss=657.396, loss/triple=0.614389
+epoch 788: total_loss=657.396, loss/triple=0.614389
+epoch 789: total_loss=657.396, loss/triple=0.614389
+epoch 790: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 791: total_loss=657.396, loss/triple=0.614389
+epoch 792: total_loss=657.396, loss/triple=0.614389
+epoch 793: total_loss=657.396, loss/triple=0.614389
+epoch 794: total_loss=657.396, loss/triple=0.614389
+epoch 795: total_loss=657.396, loss/triple=0.614389
+epoch 796: total_loss=657.396, loss/triple=0.614389
+epoch 797: total_loss=657.396, loss/triple=0.614389
+epoch 798: total_loss=657.396, loss/triple=0.614389
+epoch 799: total_loss=657.396, loss/triple=0.614389
+epoch 800: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 801: total_loss=657.396, loss/triple=0.614389
+epoch 802: total_loss=657.396, loss/triple=0.614389
+epoch 803: total_loss=657.396, loss/triple=0.614389
+epoch 804: total_loss=657.396, loss/triple=0.614389
+epoch 805: total_loss=657.396, loss/triple=0.614389
+epoch 806: total_loss=657.396, loss/triple=0.614389
+epoch 807: total_loss=657.396, loss/triple=0.614389
+epoch 808: total_loss=657.396, loss/triple=0.614389
+epoch 809: total_loss=657.396, loss/triple=0.614389
+epoch 810: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 811: total_loss=657.396, loss/triple=0.614389
+epoch 812: total_loss=657.396, loss/triple=0.614389
+epoch 813: total_loss=657.396, loss/triple=0.614389
+epoch 814: total_loss=657.396, loss/triple=0.614389
+epoch 815: total_loss=657.396, loss/triple=0.614389
+epoch 816: total_loss=657.396, loss/triple=0.614389
+epoch 817: total_loss=657.396, loss/triple=0.614389
+epoch 818: total_loss=657.396, loss/triple=0.614389
+epoch 819: total_loss=657.396, loss/triple=0.614389
+epoch 820: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 821: total_loss=657.396, loss/triple=0.614389
+epoch 822: total_loss=657.396, loss/triple=0.614389
+epoch 823: total_loss=657.396, loss/triple=0.614389
+epoch 824: total_loss=657.396, loss/triple=0.614389
+epoch 825: total_loss=657.396, loss/triple=0.614389
+epoch 826: total_loss=657.396, loss/triple=0.614389
+epoch 827: total_loss=657.396, loss/triple=0.614389
+epoch 828: total_loss=657.396, loss/triple=0.614389
+epoch 829: total_loss=657.396, loss/triple=0.614389
+epoch 830: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 831: total_loss=657.396, loss/triple=0.614389
+epoch 832: total_loss=657.396, loss/triple=0.614389
+epoch 833: total_loss=657.396, loss/triple=0.614389
+epoch 834: total_loss=657.396, loss/triple=0.614389
+epoch 835: total_loss=657.396, loss/triple=0.614389
+epoch 836: total_loss=657.396, loss/triple=0.614389
+epoch 837: total_loss=657.396, loss/triple=0.614389
+epoch 838: total_loss=657.396, loss/triple=0.614389
+epoch 839: total_loss=657.396, loss/triple=0.614389
+epoch 840: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 841: total_loss=657.396, loss/triple=0.614389
+epoch 842: total_loss=657.396, loss/triple=0.614389
+epoch 843: total_loss=657.396, loss/triple=0.614389
+epoch 844: total_loss=657.396, loss/triple=0.614389
+epoch 845: total_loss=657.396, loss/triple=0.614389
+epoch 846: total_loss=657.396, loss/triple=0.614389
+epoch 847: total_loss=657.396, loss/triple=0.614389
+epoch 848: total_loss=657.396, loss/triple=0.614389
+epoch 849: total_loss=657.396, loss/triple=0.614389
+epoch 850: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 851: total_loss=657.396, loss/triple=0.614389
+epoch 852: total_loss=657.396, loss/triple=0.614389
+epoch 853: total_loss=657.396, loss/triple=0.614389
+epoch 854: total_loss=657.396, loss/triple=0.614389
+epoch 855: total_loss=657.396, loss/triple=0.614389
+epoch 856: total_loss=657.396, loss/triple=0.614389
+epoch 857: total_loss=657.396, loss/triple=0.614389
+epoch 858: total_loss=657.396, loss/triple=0.614389
+epoch 859: total_loss=657.396, loss/triple=0.614389
+epoch 860: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 861: total_loss=657.396, loss/triple=0.614389
+epoch 862: total_loss=657.396, loss/triple=0.614389
+epoch 863: total_loss=657.396, loss/triple=0.614389
+epoch 864: total_loss=657.396, loss/triple=0.614389
+epoch 865: total_loss=657.396, loss/triple=0.614389
+epoch 866: total_loss=657.396, loss/triple=0.614389
+epoch 867: total_loss=657.396, loss/triple=0.614389
+epoch 868: total_loss=657.396, loss/triple=0.614389
+epoch 869: total_loss=657.396, loss/triple=0.614389
+epoch 870: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 871: total_loss=657.396, loss/triple=0.614389
+epoch 872: total_loss=657.396, loss/triple=0.614389
+epoch 873: total_loss=657.396, loss/triple=0.614389
+epoch 874: total_loss=657.396, loss/triple=0.614389
+epoch 875: total_loss=657.396, loss/triple=0.614389
+epoch 876: total_loss=657.396, loss/triple=0.614389
+epoch 877: total_loss=657.396, loss/triple=0.614389
+epoch 878: total_loss=657.396, loss/triple=0.614389
+epoch 879: total_loss=657.396, loss/triple=0.614389
+epoch 880: total_loss=657.396, loss/triple=0.614389
+------------------------------------
+kappa result=0.8230773209970514
+------------------------------------
+epoch 881: total_loss=657.396, loss/triple=0.614389
+epoch 882: total_loss=657.396, loss/triple=0.614389
+epoch 883: total_loss=657.396, loss/triple=0.614389
+epoch 884: total_loss=657.396, loss/triple=0.614389
+epoch 885: total_loss=657.396, loss/triple=0.614389
+epoch 886: total_loss=657.396, loss/triple=0.614389
+epoch 887: total_loss=657.396, loss/triple=0.614389

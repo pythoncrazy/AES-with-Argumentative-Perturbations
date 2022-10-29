@@ -1,0 +1,57 @@
+gpu_id=0
+set_id=1
+emb_size=300
+token_num=42
+feature_size=100
+epochs=200000
+test_freq=10
+hops=3
+lr=0.002
+batch_size=32
+l2_lambda=0.3
+num_samples=1
+epsilon=0.1
+max_grad_norm=10.0
+keep_prob=0.9
+
+max_score=12 	 min_score=2
+max sentence size=911 	 mean sentence size=395
+epoch 1: total_loss=5829.536, loss/triple=5.448165
+epoch 2: total_loss=4354.017, loss/triple=4.069175
+epoch 3: total_loss=3914.718, loss/triple=3.658615
+epoch 4: total_loss=3399.852, loss/triple=3.177432
+epoch 5: total_loss=3016.346, loss/triple=2.819015
+epoch 6: total_loss=2801.595, loss/triple=2.618313
+epoch 7: total_loss=2630.054, loss/triple=2.457995
+epoch 8: total_loss=2510.851, loss/triple=2.346590
+epoch 9: total_loss=2367.561, loss/triple=2.212674
+epoch 10: total_loss=2264.050, loss/triple=2.115935
+------------------------------------
+kappa result=0.6640125118936181
+------------------------------------
+epoch 11: total_loss=2139.680, loss/triple=1.999701
+epoch 12: total_loss=2043.465, loss/triple=1.909780
+epoch 13: total_loss=1967.701, loss/triple=1.838973
+epoch 14: total_loss=1898.611, loss/triple=1.774403
+epoch 15: total_loss=1833.936, loss/triple=1.713959
+epoch 16: total_loss=1776.981, loss/triple=1.660730
+epoch 17: total_loss=1722.656, loss/triple=1.609959
+epoch 18: total_loss=1674.037, loss/triple=1.564520
+epoch 19: total_loss=1630.497, loss/triple=1.523829
+epoch 20: total_loss=1587.657, loss/triple=1.483792
+------------------------------------
+kappa result=0.7980469224847035
+------------------------------------
+epoch 21: total_loss=1547.951, loss/triple=1.446683
+epoch 22: total_loss=1513.452, loss/triple=1.414441
+epoch 23: total_loss=1478.563, loss/triple=1.381834
+epoch 24: total_loss=1445.335, loss/triple=1.350780
+epoch 25: total_loss=1417.274, loss/triple=1.324555
+epoch 26: total_loss=1390.725, loss/triple=1.299743
+epoch 27: total_loss=1365.376, loss/triple=1.276053
+epoch 28: total_loss=1339.689, loss/triple=1.252046
+epoch 29: total_loss=1318.139, loss/triple=1.231906
+epoch 30: total_loss=1298.211, loss/triple=1.213281
+------------------------------------
+kappa result=0.790820535930946
+------------------------------------

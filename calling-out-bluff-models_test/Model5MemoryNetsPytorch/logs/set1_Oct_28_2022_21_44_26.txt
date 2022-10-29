@@ -1,0 +1,23 @@
+gpu_id=0
+set_id=1
+emb_size=300
+token_num=42
+feature_size=100
+epochs=200000
+test_freq=10
+hops=3
+lr=0.002
+batch_size=32
+l2_lambda=0.3
+num_samples=1
+epsilon=0.1
+max_grad_norm=10.0
+keep_prob=0.9
+
+max_score=12 	 min_score=2
+max sentence size=911 	 mean sentence size=395
+epoch 1: total_loss=7957.959, loss/triple=7.437345
+epoch 2: total_loss=4724.732, loss/triple=4.415637
+epoch 3: total_loss=3992.298, loss/triple=3.731120
+epoch 4: total_loss=3635.852, loss/triple=3.397993
+epoch 5: total_loss=3302.683, loss/triple=3.086620

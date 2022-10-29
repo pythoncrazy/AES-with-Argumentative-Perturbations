@@ -1,0 +1,6 @@
+{
+    "gremlins.showInProblemPane": true,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "develop"
+    ]
+}
