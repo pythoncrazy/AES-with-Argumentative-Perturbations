@@ -312,7 +312,7 @@ if __name__ == "__main__":
                f.write("------------------------------------\n")
             if dev_kappa_result>bkp:
                bkp=dev_kappa_result
-            model.save_weights(f"C:\\Users\\viksp\\Documents\\Folder_of_Folders\\Polygence_code\\calling-out-bluff-models_test\\Model5MemoryNetsPytorch\\results\\save_one_{args.set_id}.pth")
+            model.save_weights(f"C:\\Users\\viksp\\Documents\\Folder_of_Folders\\AES-with-Argumentative-Perturbations\\calling-out-bluff-models_test\\Model5MemoryNetsPytorch\\results\\save_one_{args.set_id}.pth")
             print("------------------------------------")
             print("------------------------------------")
             x= np.array(dev_essay_scores) - np.array(all_pred_scores)
