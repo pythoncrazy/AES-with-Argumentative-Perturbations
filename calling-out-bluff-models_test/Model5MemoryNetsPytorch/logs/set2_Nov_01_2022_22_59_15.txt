@@ -3988,3 +3988,9 @@ epoch 3054: total_loss=679.210, loss/triple=0.628898
 epoch 3055: total_loss=679.210, loss/triple=0.628898
 epoch 3056: total_loss=679.210, loss/triple=0.628898
 epoch 3057: total_loss=679.210, loss/triple=0.628898
+epoch 3058: total_loss=679.210, loss/triple=0.628898
+epoch 3059: total_loss=679.210, loss/triple=0.628898
+epoch 3060: total_loss=679.210, loss/triple=0.628898
+------------------------------------
+kappa result=0.6676604939960065
+------------------------------------
