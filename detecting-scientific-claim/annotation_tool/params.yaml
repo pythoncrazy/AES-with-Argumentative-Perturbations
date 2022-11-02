@@ -1,0 +1,23 @@
+# path to PMIDs to tag (can be .txt file of PMIDs or .json file where each line contains all information, see data/ for more detail)
+pmids_path: data/pmids.json
+
+# output labels for tag
+output_path: data/labels.json
+
+# labels
+labels:
+  - CLAIM
+
+# 1 if storing full dataset, 0 if storing only tags
+store_details:
+  - 0
+
+
+# default colors for each label
+colors:
+  - ff7f7f
+  - f6f3b4
+  - fb607f
+  - 7cb9e8
+  - ffa525
+  - dddddd

@@ -1,0 +1,1 @@
+You will have to download almost all of the data, and train the model from scratch, since the AWS hosting does not work anymore.

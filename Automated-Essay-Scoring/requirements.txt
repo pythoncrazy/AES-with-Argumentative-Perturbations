@@ -1,0 +1,6 @@
+django
+django-widget-tweaks
+gensim
+scipy
+tensorflow
+keras

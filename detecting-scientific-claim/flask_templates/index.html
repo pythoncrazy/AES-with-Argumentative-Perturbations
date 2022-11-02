@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>detecting scientific claims</title>
+    {% include 'head.html' %}
+</head>
+
+<body>
+
+  {% include 'nav.html' %}
+
+  <div class="container">
+
+    <p>Search articles from PubMed <a href="https://www.ncbi.nlm.nih.gov/pubmed/" target="_blank">here</a></p>
+
+    <form action="/" method="post">
+        <textarea
+          class="form-control"
+          rows="5" id="abstract"
+          name="text_input"
+          placeholder="Put scientific abstract or text or link to PubMed article in following format https://www.ncbi.nlm.nih.gov/pubmed/29901650 that you want to detect claims here..."
+          value="{{ request.form.get('text_input', '') }}"></textarea>
+        <br/>
+        <input type="submit" class="override-button-font center-block btn btn-warning" value="Submit" name="submitbtn">
+    </form>
+
+    <br/>
+
+    <!-- article title -->
+    {% if len(title) != 0 %}
+      <h5><b>{{ title }}</b></h5>
+    {% endif %}
+
+    <!-- article abstract -->
+    {% if len(abstract) != 0 %}
+      {% for para in abstract.split('\n') %}
+        <p>{{para}}</p>
+      {% endfor %}
+    <br/>
+    {% endif %}
+
+    {% if len(sents) != 0 %}
+      <h4><b>Prediction</b></h4>
+      <br/>
+
+      <ul style="list-style: none; padding: 0;">
+      {% for i, (sent, score, label) in enumerate(zip(sents, scores, labels)) %}
+        <li>
+
+        <!-- progress bar -->
+        <!-- <div class="leftBox">
+          <div class="progress">
+            <div class="progress-bar"
+                role="progressbar"
+                style="width: {{score}}%"
+                aria-valuenow="{{score}}"
+                aria-valuemin="0"
+                aria-valuemax="100">
+            </div>
+          </div> -->
+          <!-- prediction value -->
+          <!-- <div class="centerValue">
+            {{ '%0.2f' | format(score / 100) }}
+          </div>
+        </div> -->
+        <!-- splited sentence -->
+        {% if score > 50 %}
+        <div class="rightTxt" id="data-entity-{{label.lower()}}-dim">
+          <b>{{sent}}
+            <mark class="label-entity" id="data-entity-{{label.lower()}}">{{ label }}</mark>
+            <mark class="label-entity" id="data-entity-claim">CLAIM</mark>
+          </b>
+        </div>
+        {% else %}
+        <div class="rightTxt" id="data-entity-{{label.lower()}}-dim">
+          {{sent}}
+          <b>
+            <mark class="label-entity" id="data-entity-{{label.lower()}}">{{ label }}</mark>
+          </b>
+        </div>
+        {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+
+  </div>
+
+  {% include 'footer.html' %}
+</body>
+</html>

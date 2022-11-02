@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login page</title>
+    {% include 'head.html' %}
+</head>
+
+<body>
+
+    {% include 'nav.html' %}
+
+    <div class="container" style="display: flex; align-items: center; justify-content: center; height: 50vh;">
+        <div class="card text-center" style="width: 22rem;">
+        <div class="card-body">
+            <p class="card-text" style="color: #ff3848;">Enter your email address to login.</p>
+            
+            <form action="/login" method="GET" class="form panel-body">
+                <div class="form-group">
+                    <div class="input">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user" style="width: auto"></i>
+                        </span>
+                        <input id="txtUsuario" runat="server" type="text" class="form-control" name="email" placeholder="email address" required="" />
+                    </div>
+                </div>
+                <button type="submit" id="btnLogin" runat="server" class="btn btn-primary" style="width: 100%; height: 3rem;">
+                    LOG IN
+                </button>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+</body>
+
+</html>

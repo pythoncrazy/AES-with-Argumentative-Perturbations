@@ -1,0 +1,8 @@
+# pytorch library
+torch>=0.4.0
+
+# model
+allennlp
+
+# tokenization
+spacy>=2.0

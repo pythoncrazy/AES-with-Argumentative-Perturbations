@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentence Annotation Tool</title>
+    {% include 'head.html' %}
+</head>
+
+<body>
+
+{% include 'nav.html' %}
+
+<div class="container">
+  <!-- progress -->
+  Progress: {{ n_tagged }} out of {{ n_total }} documents
+  <hr>
+
+  <!-- article details -->
+  <h4>{{ title }}</h4>
+  <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{paper_id.strip()}}" target="_blank">PMID: {{paper_id}}</a>
+  <p>{{ abstract }}</p>
+  <hr>
+
+  <style>
+    /* hide original pointer */
+    .check_container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    /* hide label-entity */
+    .label-entity {
+      display: none;
+    }
+    
+    /* show border when checked */
+    input:checked ~ .checkmark {
+      padding-left: 10px;
+      border-left: 4px solid #ff7f7f;
+    }
+
+    /* show label-entity when checked */
+    input:checked ~ .checkmark .label-entity {
+      display: inline;
+    }
+  </style>
+
+  <!-- form input for tags -->
+  <form action="{{ url_for('handle_submit') }}" method="post">
+    {% for i, sent in enumerate(sentences) %}
+      <tr>
+        <td>
+          <div class="check_container" style="display: flex; padding-bottom: 15px;">
+            <input type="checkbox" name="labels" value="{{i}}" id="sent_{{i}}">
+            <label class="checkmark" for="sent_{{i}}">
+              {{ sent }} 
+              <mark class="label-entity" id="data-entity-claim">CLAIM</mark>
+            </label>
+          </div>
+        </td>
+      </tr>
+    {% endfor %}
+    <div class="submit-button-wrapper">
+        <input type="hidden" name="paper_id" value="{{paper_id}}">
+        <input type="submit" class="override-button-font override-button-size btn btn-warning" value="Submit" name="submitbtn">
+    </div>
+  </form>
+
+</div>
+
+{% include 'footer.html' %}
+
+</body>
+</html>

@@ -1,4 +1,8 @@
-/ArgumentMining/.git
-/argument-mining/argument-mining/.git
-/argument-mining/argument-mining/.git/.gitignore
-/automated-essay-by-grading-by-RNN/.git
+sentences_embedded_train.pkl
+glove.6B.50d.txt
+glove.6B.100d.txt
+glove.6B.200d.txt 
+glove.6B.300d.txt 
+train.txt 
+train.json 
+GoogleNews-vectors-negative300.bin
