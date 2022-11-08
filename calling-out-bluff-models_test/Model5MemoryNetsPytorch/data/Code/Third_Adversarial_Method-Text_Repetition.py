@@ -42,7 +42,7 @@ def split_into_sentences(text):
 
 
 
-df = pd.read_csv("C:\\Users\\viksp\\Documents\\Folder_of_Folders\\AES-with-Argumentative-Perturbations\\calling-out-bluff-models_test\\Model5MemoryNetsPytorch\\data\\2nd_method\\dev_set_1_essays.tsv", sep='\t',encoding="utf-8")
+df = pd.read_csv("C:\\Users\\viksp\\Documents\\Folder_of_Folders\\AES-with-Argumentative-Perturbations\\calling-out-bluff-models_test\\Model5MemoryNetsPytorch\\data\\Code\\dev_set_1_essays.tsv", sep='\t',encoding="utf-8")
 essayColumn = df[["essay"]].values
 temp_essays = []
 
